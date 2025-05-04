@@ -1,0 +1,15 @@
+debug: false
+
+logging:
+  level:
+    org.springframework.web: ERROR
+
+server:
+  port: 3010
+
+okta:
+  oauth2:
+    # Replace with the domain of your Auth0 tenant.
+    issuer: https://dev-veczqiasqcjp5wqn.us.auth0.com/
+    # Replace with the API Identifier for your Auth0 API.
+    audience: http://interviews/api
